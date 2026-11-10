@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Let's Celebrate - Baby Boy Birthday RSVP (Sample)</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Allura&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef4f8;--card:#f6fafd;--rose:#5f8fb8;--blush:#bcd6ea;--pink:#9ec3e0;--ink:#34414d;--mute:#6d808f;--sage:#cfdcc6;--lav:#c5cde0;--peach:#efe0c9;--serif:'Playfair Display',Georgia,serif;--script:'Allura',cursive;--sans:'Jost',system-ui,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%}
+body{background:radial-gradient(circle at 20% 15%,#dbe8f1,#bcd0df 70%);display:grid;place-items:center;font-family:var(--sans);font-weight:300;color:var(--ink)}
+.phone{position:relative;width:min(100vw,430px);height:100dvh;max-height:920px;background:var(--bg);overflow:hidden}
+@media(min-width:600px){.phone{height:min(100dvh - 40px,880px);border-radius:44px;box-shadow:0 0 0 9px #1c1a1a,0 30px 80px rgba(60,90,120,.4)}}
+.sc{height:100%;overflow-y:auto;scroll-behavior:smooth;padding-bottom:96px;scrollbar-width:none}
+.sc::-webkit-scrollbar{display:none}
+section{padding:34px 22px;text-align:center;position:relative}
+.scr{font-family:var(--script);color:var(--rose);font-weight:400;line-height:1}
+.cap{font:600 1.75rem/1.15 var(--serif);letter-spacing:.04em;text-transform:uppercase}
+.sm{font-size:.62rem;letter-spacing:.26em;text-transform:uppercase;font-weight:400}
+h2.scr{font-size:2.3rem;margin-bottom:14px}
+.card{background:var(--card);border-radius:20px;padding:24px 20px;box-shadow:0 6px 22px rgba(95,143,184,.13);background-image:radial-gradient(circle at 10% 0,#dcebf6,transparent 55%)}
+.fade{opacity:0;transform:translateY(22px);transition:opacity .8s,transform .8s}.fade.in{opacity:1;transform:none}
+/* hero */
+.hero{padding-top:44px;overflow:hidden}
+.hero .scr{font-size:2.3rem}
+.pol{background:#fff;padding:7px 7px 26px;box-shadow:0 8px 22px rgba(40,70,100,.18);position:absolute;width:44%;animation:sway 6s ease-in-out infinite}
+.pol div{aspect-ratio:1;display:grid;place-items:center;font:400 1.1rem var(--script);color:var(--rose)}
+.pol:before{content:"";position:absolute;top:-9px;left:50%;width:54px;height:17px;background:rgba(205,215,225,.8);transform:translateX(-50%) rotate(-4deg)}
+.p1{left:6%;top:0;transform:rotate(-6deg)}.p1 div{background:linear-gradient(150deg,#d3e6f4,#9fc4e2)}
+.p2{right:6%;top:92px;transform:rotate(5deg);animation-delay:-3s}.p2 div{background:linear-gradient(150deg,#efe3cf,#d8c4a4)}
+.stage{position:relative;height:290px;margin:18px 0 6px}
+.badge{position:absolute;left:8%;top:150px;width:92px;height:92px;border-radius:50%;background:var(--blush);border:2px solid #fff;box-shadow:0 6px 16px rgba(95,143,184,.3);display:grid;place-items:center;font:600 1.15rem var(--serif);color:var(--rose);line-height:1;transform:rotate(-6deg);text-transform:uppercase}
+.badge i{display:block;font:400 1.2rem var(--script);text-transform:none;margin-top:3px}
+@keyframes sway{50%{translate:0 -6px}}
+.join{margin-top:6px}
+.hero .big{font-size:2.2rem;margin:6px 0 14px}
+.dt{display:flex;align-items:center;justify-content:center;gap:14px;border-top:1px solid #cfdde8;border-bottom:1px solid #cfdde8;padding:12px 0;margin:0 14px 14px}
+.dt b{font:500 2rem var(--serif)}.dt .m{font:500 1.2rem var(--serif);letter-spacing:.06em}
+.dt div{font-size:.6rem;letter-spacing:.2em;color:var(--mute)}
+.where{display:flex;justify-content:center;gap:22px;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;font-weight:400;flex-wrap:wrap}
+.where span:before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--rose);margin-right:7px}
+.petals i{position:absolute;top:-20px;width:13px;height:13px;clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);background:var(--pink);opacity:.75;animation:fall linear infinite}
+@keyframes fall{to{transform:translateY(820px) rotate(360deg)}}
+/* countdown */
+.cd{display:flex;justify-content:center;gap:6px;background:linear-gradient(#a9cbe6,#86b2d8);border-radius:16px;padding:16px 8px;margin-top:8px}
+.cd b{font:500 1.9rem var(--serif);color:#fff;display:block;line-height:1}
+.cd small{font-size:.5rem;letter-spacing:.2em;color:#fff}
+.cd span.s{font:1.6rem var(--serif);color:#fff;align-self:flex-start}
+/* schedule */
+.path{position:relative;height:440px;margin:6px 0 10px}
+.path svg.w{position:absolute;inset:0;width:100%;height:100%}
+.ic{position:absolute;width:58px;height:58px;margin:-29px 0 0 -29px;border-radius:50%;background:var(--blush);border:3px solid #fff;box-shadow:0 5px 14px rgba(95,143,184,.28);display:grid;place-items:center}
+.ic svg{width:28px;height:28px;stroke:#fff;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.t{position:absolute;width:48%;margin-top:-30px}
+.t b{display:block;font:500 .85rem var(--sans);letter-spacing:.08em}
+.t strong{display:block;font:500 .95rem var(--serif);margin:1px 0}
+.t small{font-size:.72rem;color:var(--mute);line-height:1.35;display:block}
+.t.l{left:36%;text-align:left}.t.r{right:36%;text-align:right}
+/* dress, note */
+.sw{display:flex;gap:14px;justify-content:center;margin-top:12px}.sw i{width:46px;height:46px;border-radius:50%;box-shadow:inset 0 0 0 3px rgba(255,255,255,.6)}
+.note p{font-size:.88rem;line-height:1.7;max-width:260px;margin:auto}
+/* gallery */
+.gal{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:12px 18px 26px;margin:0 -22px;scrollbar-width:none}
+.gal::-webkit-scrollbar{display:none}
+.gal .pol{position:relative;width:62%;flex:none;scroll-snap-align:center;animation:none}
+.gal .pol:nth-child(odd){transform:rotate(-3deg)}.gal .pol:nth-child(even){transform:rotate(3deg)}
+.gal .pol div{aspect-ratio:4/5}
+.btn{display:inline-block;border:0;background:var(--rose);color:#fff;padding:12px 28px;border-radius:30px;font:400 .68rem var(--sans);letter-spacing:.2em;text-transform:uppercase;cursor:pointer;box-shadow:0 6px 16px rgba(95,143,184,.35);transition:.2s}
+.btn:active{transform:scale(.97)}
+/* rsvp */
+form{text-align:left;margin-top:14px}
+label,legend{display:block;font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--rose);font-weight:500;margin-bottom:4px}
+input[type=text]{width:100%;border:0;border-bottom:1.5px solid #cfdde8;background:transparent;padding:8px 2px;font:inherit;font-size:.95rem;color:var(--ink);outline:0;margin-bottom:18px}
+input[type=text]:focus{border-color:var(--rose)}
+fieldset{border:0;margin-bottom:16px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.opts label{margin:0;cursor:pointer}.opts input{position:absolute;opacity:0}
+.opts span{display:block;border:1.5px solid #cfdde8;border-radius:14px;padding:12px 4px;text-align:center;font-size:.78rem;letter-spacing:0;text-transform:none;color:var(--ink);font-weight:300;transition:.2s}
+.opts input:checked+span{background:var(--rose);border-color:var(--rose);color:#fff}
+.stp{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+.stp button{width:36px;height:36px;border-radius:50%;border:1.5px solid var(--rose);background:none;color:var(--rose);font-size:1.1rem;cursor:pointer}
+.stp output{font:500 1.4rem var(--serif);min-width:22px;text-align:center}
+.err{color:#b3392b;font-size:.8rem;margin-bottom:10px}
+form .btn{width:100%;padding:14px}
+.ok{padding:14px 0}.ok svg{width:54px;stroke:var(--rose);fill:none;stroke-width:2.5;margin-bottom:6px}.ok h3{font:400 2.2rem var(--script);color:var(--rose)}
+[hidden]{display:none!important}
+.cf{position:absolute;top:0;width:9px;height:9px;z-index:50;animation:cf 1.6s ease-out forwards;pointer-events:none}
+@keyframes cf{to{transform:translate(var(--x),var(--y)) rotate(540deg);opacity:0}}
+/* contact */
+.soc{display:flex;gap:12px;justify-content:center;margin-top:10px}
+.soc a{width:42px;height:42px;border-radius:50%;background:var(--rose);display:grid;place-items:center}.soc svg{width:20px;stroke:#fff;fill:none;stroke-width:1.8}
+/* tabs */
+.tabs{position:absolute;left:0;right:0;bottom:0;display:flex;background:#fff;border-top:1px solid #dbe6ee;padding:8px 4px 14px;z-index:20;border-radius:0 0 inherit inherit}
+.tabs a{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);cursor:pointer;transition:.2s}
+.tabs svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.tabs a.on{color:var(--rose)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.fade{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<main class="phone">
+<div class="sc" id="sc">
+
+<section id="home" class="hero">
+  <div class="petals" id="pt"></div>
+  <p class="scr">Let's Celebrate</p>
+  <p class="cap">Baby Name Turns One</p>
+  <div class="stage">
+    <div class="pol p1"><div>Photo</div></div>
+    <div class="pol p2"><div>Photo</div></div>
+    <div class="badge"><span style="font-size:.9rem">Mr.<br><span style="font-size:1.25rem">One</span><i>derful</i></span></div>
+  </div>
+  <p class="sm join">Join us to celebrate</p>
+  <p class="scr big">Baby Name's 1st Birthday</p>
+  <div class="dt"><b>20</b><span class="m">JUNE</span><b style="font-size:1.4rem">2027</b><div>SUNDAY</div></div>
+  <div class="where"><span>5:00 PM</span><span>Venue Name, City</span></div>
+</section>
+
+<section class="fade"><div class="card"><h2 class="scr" style="margin-bottom:10px">Our Little Prince</h2>
+  <p style="font-size:.9rem;line-height:1.7">One little year of laughter, love and pure happiness. Our hearts are full as we celebrate our little prince's big day!</p></div>
+  <h2 class="scr" style="margin:26px 0 4px;font-size:2.1rem">Countdown</h2>
+  <div class="cd"><div><b id="d">00</b><small>DAYS</small></div><span class="s">:</span><div><b id="h">00</b><small>HRS</small></div><span class="s">:</span><div><b id="m">00</b><small>MINS</small></div><span class="s">:</span><div><b id="s">00</b><small>SECS</small></div></div>
+</section>
+
+<section id="event" class="fade">
+  <h2 class="scr">Event Schedule</h2>
+  <div class="path">
+    <svg class="w" viewBox="0 0 300 440" preserveAspectRatio="none" aria-hidden="true"><path d="M48 55C48 125 252 95 252 165S48 235 48 275 252 355 252 385" fill="none" stroke="#5f8fb8" stroke-width="1.4" stroke-dasharray="5 6" vector-effect="non-scaling-stroke"/></svg>
+    <div class="ic" style="left:16%;top:55px"><svg viewBox="0 0 24 24"><path d="M5 20h14v-6H5zM12 8v6M12 4v2M7 14c0-2 2-2 2-4M17 14c0-2-2-2-2-4"/></svg></div>
+    <div class="t l" style="top:55px"><b>05:00 PM</b><strong>Guests Arrival</strong><small>Welcome &amp; Refreshments</small></div>
+    <div class="ic" style="left:84%;top:165px"><svg viewBox="0 0 24 24"><path d="M12 3v4M12 7c-1.2 0-1.6-1-1-2s1-1.5 1-2c0 .5.4 1 1 2s.2 2-1 2zM6 11h12v9H6zM6 15c2 1.5 4-1.5 6 0s4-1.5 6 0"/></svg></div>
+    <div class="t r" style="top:165px"><b>06:00 PM</b><strong>Cake Cutting</strong><small>Let's sing, smile &amp; celebrate!</small></div>
+    <div class="ic" style="left:16%;top:275px"><svg viewBox="0 0 24 24"><path d="M3 17h18M5 17a7 7 0 0114 0M12 8V6M10 6h4M2 20h20"/></svg></div>
+    <div class="t l" style="top:275px"><b>07:00 PM</b><strong>Dinner Time</strong><small>Delicious food &amp; good vibes</small></div>
+    <div class="ic" style="left:84%;top:385px"><svg viewBox="0 0 24 24"><path d="M4 20l5-12 7 7zM14 5l1-2M17 8l3-1M17 4l1 2"/></svg></div>
+    <div class="t r" style="top:385px"><b>08:00 PM</b><strong>Fun &amp; Games</strong><small>Entertainment for everyone</small></div>
+  </div>
+  <div class="card" style="margin-top:12px"><h2 class="scr" style="font-size:2rem;margin-bottom:2px">Dress Code</h2><p style="font-size:.85rem">Wear your favorite color</p>
+    <div class="sw"><i style="background:#bcd6ea"></i><i style="background:#efe0c9"></i><i style="background:#cfdcc6"></i><i style="background:#c5cde0"></i></div></div>
+  <div class="note" style="margin-top:26px"><h2 class="scr" style="font-size:2rem">A Note</h2><p>Your presence will make this day even more special. We can't wait to celebrate with you!</p></div>
+</section>
+
+<section id="gallery" class="fade">
+  <h2 class="scr">Photo Gallery</h2>
+  <div class="gal"><div class="pol"><div>Photo 1</div></div><div class="pol"><div>Photo 2</div></div><div class="pol"><div>Photo 3</div></div><div class="pol"><div>Photo 4</div></div></div>
+  <p class="sm" style="color:var(--mute)">Swipe to see more</p>
+</section>
+
+<section id="rsvp" class="fade">
+  <div class="card">
+    <h2 class="scr" style="font-size:2.5rem;margin-bottom:4px">Kindly RSVP</h2>
+    <p style="font-size:.88rem">by June 10th, 2027</p>
+    <form id="f" novalidate>
+      <label for="n">Your name</label>
+      <input id="n" type="text" placeholder="e.g. Jane Doe" autocomplete="name">
+      <fieldset><legend>Will you celebrate with us?</legend>
+        <div class="opts"><label><input type="radio" name="a" value="yes"><span>Yes, I'll be there</span></label><label><input type="radio" name="a" value="no"><span>Sorry, can't make it</span></label></div></fieldset>
+      <div id="gf" hidden><label>Number of guests</label><div class="stp"><button type="button" data-s="-1" aria-label="Fewer">&minus;</button><output id="g">1</output><button type="button" data-s="1" aria-label="More">+</button></div></div>
+      <p class="err" id="e" role="alert" hidden></p>
+      <button class="btn" type="submit">Confirm your presence</button>
+    </form>
+    <div class="ok" id="ok" hidden><svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="24"/><path d="M15 27l8 8 14-16"/></svg><h3 id="okt">Thank you!</h3><p id="okp" style="font-size:.88rem"></p></div>
+  </div>
+</section>
+
+<section id="contact" class="fade">
+  <h2 class="scr">Contact</h2>
+  <p style="font-size:.88rem;line-height:1.7">Questions? Reach out to the host:<br><b style="font-weight:500">Host Name · 0900 000 0000</b></p>
+  <div class="soc"><a href="#" onclick="return false" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="3.5"/></svg></a><a href="#" onclick="return false" aria-label="Message"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg></a></div>
+  <p class="sm" style="margin-top:22px;color:var(--mute)">Follow for updates</p>
+</section>
+</div>
+
+<nav class="tabs" id="tabs">
+  <a data-t="home" class="on"><svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9H4z"/></svg>Home</a>
+  <a data-t="event"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>Event</a>
+  <a data-t="gallery"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><circle cx="9" cy="10" r="1.5"/><path d="M4 17l5-4 4 3 3-2 4 3"/></svg>Gallery</a>
+  <a data-t="rsvp"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 8l9 6 9-6"/></svg>RSVP</a>
+  <a data-t="contact"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A15 15 0 013 6a2 2 0 012-2z"/></svg>Contact</a>
+</nav>
+</main>
+
+<script>
+const $=id=>document.getElementById(id),sc=$("sc");
+// falling petals
+const pt=$("pt");for(let i=0;i<10;i++){const p=document.createElement("i");p.style.left=Math.random()*100+"%";p.style.animationDuration=9+Math.random()*8+"s";p.style.animationDelay=-Math.random()*12+"s";pt.appendChild(p)}
+// countdown
+const target=new Date("2027-06-20T17:00:00").getTime();
+function tick(){const t=Math.max(0,target-Date.now()),p=n=>String(n).padStart(2,"0");
+$("d").textContent=p(Math.floor(t/864e5));$("h").textContent=p(Math.floor(t%864e5/36e5));$("m").textContent=p(Math.floor(t%36e5/6e4));$("s").textContent=p(Math.floor(t%6e4/1e3))}
+tick();setInterval(tick,1000);
+// fade in
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}}),{root:sc,threshold:.08});
+document.querySelectorAll(".fade").forEach(el=>io.observe(el));
+// tabs + scroll spy
+const tabs=[...document.querySelectorAll(".tabs a")];
+tabs.forEach(a=>a.onclick=()=>$(a.dataset.t).scrollIntoView({behavior:"smooth"}));
+const spy=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting)tabs.forEach(a=>a.classList.toggle("on",a.dataset.t===x.target.id))}),{root:sc,rootMargin:"-45% 0px -50% 0px"});
+tabs.forEach(a=>spy.observe($(a.dataset.t)));
+// RSVP (sample mode: nothing is sent anywhere)
+const f=$("f");let guests=1;
+f.querySelectorAll("[name=a]").forEach(r=>r.onchange=()=>{$("gf").hidden=f.a.value!=="yes";$("e").hidden=true});
+f.querySelectorAll("[data-s]").forEach(b=>b.onclick=()=>{guests=Math.min(8,Math.max(1,guests+ +b.dataset.s));$("g").textContent=guests});
+function confetti(){const c=["#9ec3e0","#efe0c9","#cfdcc6","#c5cde0","#5f8fb8"],box=$("rsvp").querySelector(".card");box.style.position="relative";
+for(let i=0;i<30;i++){const e=document.createElement("i");e.className="cf";e.style.cssText=`left:50%;top:40%;background:${c[i%5]};--x:${(Math.random()-.5)*340}px;--y:${-60+Math.random()*260}px;border-radius:${i%2?"50%":"2px"}`;box.appendChild(e);setTimeout(()=>e.remove(),1700)}}
+f.onsubmit=e=>{e.preventDefault();const name=$("n").value.trim(),a=f.a.value,err=$("e");
+if(!name){err.textContent="Please enter your name.";err.hidden=false;return}
+if(!a){err.textContent="Please let us know if you can make it.";err.hidden=false;return}
+$("okt").textContent="Thank you, "+name.split(" ")[0]+"!";
+$("okp").textContent=a==="yes"?"Your RSVP is in. We can't wait to celebrate with you!":"Your response is received. You'll be missed!";
+f.hidden=true;$("ok").hidden=false;if(a==="yes")confetti()};
+</script>
+</body>
+</html>
